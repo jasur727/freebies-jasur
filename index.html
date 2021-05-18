@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freebies</title>
+  <!-- <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./css/normalize.css"> -->
+  <link rel="stylesheet" href="./css/styles.main.css">
+</head>
+
+<body>
+  <section class="section-form">
+    <div class="container">
+      <div class="freebies-content">
+        <div class="freebies-content-left">
+          <h1 class="freebies-content-left-heading">Let’s get you set up</h1>
+          <p class="freebies-content-left-p">Itshould only take a couple of minutes to pair with your watch</p>
+        </div>
+
+        <form action="https://echo.htmlacademy.ru" method="POST">
+          <div class="form-content">
+            <div class="name">
+              <label class="name-label">Name</label>
+                <input class="item-form name-item" type="text" name="name" placeholder="Name" required>
+            </div>
+
+            <div class="gender">
+              <span>Gender</span>
+              <div class="male">
+                <input class="male-item" value="Male" type="radio" name="gender" id="male">
+                <label class="male-icon" for="male">Male</label>
+              </div>
+
+              <div class="female">
+                <input class="female-item" value="Female" type="radio" name="gender" id="female">
+                <label class="female-icon" for="female">Female</label>
+              </div>
+            </div>
+
+            <div class="date-item">
+              <label class="date-label">Date of Birth</label>
+              <input class="item-form date-birth-item" type="date" name="datetime" placeholder="01/02/1983" required>
+            </div>
+
+            <div class="email">
+              <label class="email-label">Email</label>
+              <input class="item-form email-item" type="email" name="email" placeholder="kendall@emailcom" required>
+
+            </div>
+
+            <div class="mobile">
+              <label class="mobile-label">Mobile</label>
+              <input class="item-form mobile-item" type="tel" name="number" placeholder="+91 98765 43210" required>
+
+            </div>
+
+            <div class="customer">
+              <label class="customer-label">Customer ID</label>
+              <input class="item-form costomer-item" type="text" name="Customer ID" placeholder="576802-ERD0348 45" required>
+            </div>
+
+            <div class="membership">
+              <span>Membership</span>
+              <div class="classic">
+                <input class="membership-item classic-item" value="Classic" type="radio" name="gender" id="classic">
+                <label class="membership-icon classic-icon" for="classic">Classic</label>
+              </div>
+
+              <div class="silver">
+                <input class="membership-item silver-item" value="Silver" type="radio" name="gender" id="silver">
+                <label class="membership-icon silver-icon" for="silver">Silver</label>
+              </div>
+
+              <div class="gold">
+                <input class="membership-item gold-item" value="gold" type="radio" name="gender" id="gold">
+                <label class="membership-icon gold-icon" for="gold">Gold</label>
+              </div>
+            </div>
+
+            <div class="buttons">
+              <button class="btn cancel" type="button">CANCEL</button>
+              <button class="btn save" type="submit">SAVE</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
